@@ -24,18 +24,18 @@ const makeClass = (i) => (
 					     loading="lazy" :src="activity.image ?? 'https://puretruthson.com/wp-content/uploads/2018/11/instagram.jpg'"/>
 				</div>
 				<div
-					class="container mx-auto w-full sm:w-1/2 py-8 sm:py-16 lg:py-32 px-6 sm:px-12 lg:px-24 bg-gray-100">
-					<h3 class="text-gray-800 text-2xl mb-3 leading-normal tracking-normal font-bold">{{
+					class="container mx-auto w-full sm:w-1/2 py-8 sm:py-16 lg:py-32 px-6 sm:px-12 lg:px-24 bg-gray-600">
+					<h3 class="text-white text-2xl mb-3 leading-normal tracking-normal font-bold">{{
 							activity.title
 						}}</h3>
-					<p class="text-gray-600 leading-6 font-normal tracking-normal mb-6">
+					<p class="text-white leading-6 font-normal tracking-normal mb-6">
 						{{ activity.description }}
 					</p>
 					<a
 						v-if="activity.url"
 						:href="activity.url"
 						target="_blank"
-						class="focus:outline-none rounded py-3 px-4 text-black border border-black flex justify-center items-center text-base hover:bg-gray-200 bg-transparent">
+						class="focus:outline-none rounded py-3 px-4 text-white font-extrabold border border-white flex justify-center items-center text-base hover:bg-white bg-transparent">
             Follow Me On Instagram
 					</a>
 

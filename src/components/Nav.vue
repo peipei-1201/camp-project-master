@@ -22,17 +22,17 @@ const toggleMenu = () => mobileMenu.value = !mobileMenu.value
 		</div>
 		<div id="menu" :class="{hidden: !mobileMenu, 'md:block': true}">
 			<ul class="text-3xl md:text-base flex flex-col md:flex-row justify-center items-center fixed md:relative md:pr-10 top-0 bottom-0 left-0 right-0 bg-gray-800 z-20  ">
-				<li class="md:mr-10 flex items-center text-white hover:text-pink-200 font-extrabold pt-10 md:pt-0 ">
+				<li class="md:mr-10 flex items-center text-white hover:text-yellow-300 font-extrabold pt-10 md:pt-0 ">
 					<a href="#activities"
 					   @click="mobileMenu = false"
 					>◆My Social Network◆</a>
 				</li>
-				<li class="md:mr-10 flex items-center text-white hover:text-pink-200 font-extrabold pt-10 md:pt-0">
+				<li class="md:mr-10 flex items-center text-white hover:text-yellow-300 font-extrabold pt-10 md:pt-0">
 					<a href="#about"
 					   @click="mobileMenu = false">◆About Me◆</a>
 				</li>
 
-				<li class="md:mr-0 flex items-center text-white hover:text-pink-200 font-extrabold pt-10 md:pt-0">
+				<li class="md:mr-0 flex items-center text-white hover:text-yellow-300 font-extrabold pt-10 md:pt-0">
 					<a href="#contact"
 					   @click="mobileMenu = false">◆Contact Me◆</a>
 				</li>
