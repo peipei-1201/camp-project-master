@@ -47,8 +47,7 @@ const makeClass = (i) => (
 		<div class="mb-16 sm:mb-32 container mx-auto px-6 container">
 			<button
 				class="focus:outline-none my-8 flex items-center text-xl font-regular border-b border-black pb-2 mr-3">
-				所有經歷
-				<ArrowRightIcon class="ml-1 w-5 h-5"/>
+
 			</button>
 		</div>
 	</section>
