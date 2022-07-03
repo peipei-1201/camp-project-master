@@ -24,8 +24,8 @@ const skills = [
 	},
 
   {
-    title: '種植物',
-    description: '自己種東西來吃',
+    title: '喜歡動物',
+    description: '毛茸茸的生物真的讓人可愛到想掐死對吧',
   },
 ]
 </script>
