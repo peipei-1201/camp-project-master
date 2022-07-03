@@ -28,7 +28,7 @@ const submit = () => {
 }
 </script>
 <template>
-	<div id="contact" class="flex flex-col lg:flex-row bg-gray-800 pt-32 md:pb-32 md:px-20">
+	<div id="contact" class="flex flex-col lg:flex-row bg-gray-500 pt-32 md:pb-32 md:px-20">
 		<div class="py-10 lg:w-2/5 text-white px-8 xl:px-0 flex flex-col gap-4">
 			<h1 class="text-4xl font-bold">Contact Me :)</h1>
 			<p class="text-xl font-normal lg:pr-4">

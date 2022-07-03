@@ -3,8 +3,8 @@ import {ArrowRightIcon} from '@heroicons/vue/outline';
 
 const activities = [
 	{
-		title: 'Web開發挑戰營',
-		description: '讓你探索自己的網頁技術，並學習如何撰寫網頁。',
+		title: 'My Instagram',
+		description: '你可以透過IG聯絡我或更加認識我',
 		url: 'https://www.instagram.com/peipei._.1201/?hl=zh-tw'
 	},
 	{
@@ -41,9 +41,11 @@ const makeClass = (i) => (
 						class="focus:outline-none rounded py-3 px-4 text-black border border-black flex justify-center items-center text-base hover:bg-gray-200 bg-transparent">
             Follow Me On Instagram
 					</a>
+
 				</div>
 			</div>
 		</template>
+
 
 		<div class="mb-16 sm:mb-32 container mx-auto px-6 container">
 			<button

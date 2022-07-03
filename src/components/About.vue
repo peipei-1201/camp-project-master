@@ -6,22 +6,23 @@ const skills = [
 		title: '喜歡打遊戲',
 		description: '會玩的遊戲有傳說對決、Apex英雄M',
 	},
+  {
+    title: '遊戲內名字',
+    description: '傳說:LɪɴJɪᴜ⁰⁹、Apex m:_LingJiu_',
+  },
+	{
+		title: '喜歡聽音樂',
+		description: '喜歡聽的音樂類型是嘻哈、饒舌、電音',
+	},
+	{
+		title: '喜歡睡覺',
+		description: '一直睡 就很爽R',
+	},
 	{
 		title: '廚藝還不錯',
 		description: '等級大概是會炸廚房的那種級別owo',
 	},
-	{
-		title: '吹泡泡',
-		description: '吹出一顆又一顆泡泡',
-	},
-	{
-		title: '煮飯',
-		description: '煮出美味佳餚',
-	},
-	{
-		title: '種植物',
-		description: '自己種東西來吃',
-	},
+
   {
     title: '種植物',
     description: '自己種東西來吃',
@@ -31,7 +32,7 @@ const skills = [
 
 <template>
 
-	<section id="about" class="pt-32 md:px-16 bg-gray-800">
+	<section id="about" class="pt-32 md:px-16 bg-gray-500">
 		<div class="flex flex-col md:flex-row justify-between items-center md:px-8 md:mb-4">
 			<h1 class="text-2xl md:text-4xl text-white font-bold">
 				About me
@@ -47,9 +48,9 @@ const skills = [
 				v-for="skill in skills">
 				>
 				<div
-					class="px-10 sm:px-20 py-3 sm:py-6 shadow-lg w-11/12 mx-auto bg-white rounded z-20 relative">
-					<h4 class="text-gray-800 text-lg text-center mb-2">{{ skill.title }}</h4>
-					<p class="text-gray-600 text-lg text-center mb-2">{{ skill.description }}</p>
+					class="px-10 sm:px-20 py-3 sm:py-6 shadow-lg w-11/12 mx-auto bg-gray-700 rounded z-20 relative">
+					<h4 class="text-white text-2xl font-extrabold text-center mb-2">{{ skill.title }}</h4>
+					<p class="text-white text-lg text-center mb-2">{{ skill.description }}</p>
 				</div>
 			</div>
 		</div>
