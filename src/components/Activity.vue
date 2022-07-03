@@ -7,10 +7,7 @@ const activities = [
 		description: '你可以透過IG聯絡我或更加認識我',
 		url: 'https://www.instagram.com/peipei._.1201/?hl=zh-tw'
 	},
-	{
-		title: '模擬聯合國',
-		description: '模聯合國是一個模擬聯合國的活動，讓你學習如何模擬聯合國。'
-	}
+
 ]
 const makeClass = (i) => (
 	i % 2 === 0 ?
